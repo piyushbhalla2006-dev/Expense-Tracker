@@ -1,52 +1,43 @@
 # Personal Expense Tracker
 
-A Java console application for recording expenses, tracking spending by category, and managing a monthly budget. Records are stored in CSV files so they persist between sessions.
+A Java console application for recording expenses, analyzing spending patterns, and managing monthly budgets. The application stores financial records in CSV files, allowing data to persist between sessions.
 
 ## Features
 
-- **Expense management:** add, view, and delete expense records
-- **Spending summaries:** total spending and a breakdown by category
-- **Monthly budget:** set a budget and compare spending against it
-- **CSV storage:** records are saved locally and reloaded on startup
-- **Data export:** export transactions as CSV for use in a spreadsheet
-- **Input validation:** invalid amounts and entries are handled with clear errors
+- **Expense Management:** Add, view, and delete expense records.
+- **Spending Analysis:** Calculate total expenses and summarize spending by category.
+- **Budget Tracking:** Set monthly budgets and compare spending against budget limits.
+- **CSV Persistence:** Save and load expense records using local CSV files.
+- **Data Export:** Export transaction records in CSV format for spreadsheet analysis.
+- **Input Validation:** Handle invalid entries and amounts with appropriate error messages.
 
-## Requirements
+## Technologies
 
-- JDK 17 or later [or the version you actually tested with]
-
-## Getting Started
-
-```bash
-git clone https://github.com/piyushbhalla2006-dev/Expense-Tracker.git
-cd Expense-Tracker
-javac *.java
-java ExpenseTracker
-```
-
-Follow the on-screen menu to add expenses and set a budget.
-
-## Example
-
-```
-[paste a real session here, e.g. adding an expense and viewing the category summary or a budget warning]
-```
+- Java
+- Object-Oriented Programming (OOP)
+- Java Collections
+- File I/O
+- CSV Processing
+- Exception Handling
 
 ## How It Works
 
-- `[Expense]`: [what it represents]
-- `[Class that manages the budget]`: [what it does]
-- `[Class that reads and writes CSV]`: [what it does]
-
-[Use your real class names. Naming them shows the structure better than a general description.]
+The application organizes financial records into expense entries, processes transactions to calculate spending totals, and groups expenses by category for analysis. Monthly budget tracking helps users compare their spending against a defined limit, while CSV file storage preserves records between sessions.
 
 ## Design Notes
 
-[One concrete decision, e.g. how you format the CSV, how you group by category, or how you handle a malformed row.]
+The application uses CSV files for lightweight, local data persistence. This approach keeps financial records in a format that is easy to inspect and compatible with spreadsheet applications. Input validation and exception handling help the application respond to invalid data and file-related errors.
 
 ## Future Improvements
 
-- Spending charts and visualizations
-- Filter expenses by date range
-- Recurring expense tracking
-- Automated unit tests
+- Add visual charts to display spending trends.
+- Support filtering expenses by date range.
+- Introduce recurring expense tracking.
+- Add more detailed monthly and yearly spending reports.
+- Develop a graphical interface for a more interactive user experience.
+
+## Author
+
+Piyush Bhalla
+
+[GitHub Repository](https://github.com/piyushbhalla2006-dev/Expense-Tracker)
